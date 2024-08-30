@@ -5,7 +5,7 @@ Helps you debug http requests, like http://requestb.in
 Just run:
 
 ```
-go get github.com/katcipis/requestbin
+go install github.com/katcipis/requestbin@latest
 ```
 
 And:
@@ -14,7 +14,7 @@ And:
 requestbin
 ```
 
-And point to **http://localhost:8080**. Or pass a port:
+Will listen at port 8080 or pass a port:
 
 ```
 requestbin -p <port>
